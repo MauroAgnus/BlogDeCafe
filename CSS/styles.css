@@ -217,15 +217,72 @@ img {
 
 /**Trabajando en el archivo nosotros**/
 
+.nosotros {
+  font-family: var(--fuentePrincipal);
+  font-weight: 700;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .sobre__nosotros {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    margin-bottom: 10rem;
+  }  
+}
 
+/**cursos**/
 
+.curso {
+  padding: 3rem;
+  border-bottom: 1px solid var(--gris);
+}
+@media screen and (min-width: 768px) {
+  .curso {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 2rem;
+  }  
+}
 
+.curso__info {
+  font-family: var(--fuentePrincipal);
+  font-weight: 400;
+  height: 1.6;
+}
+.curso__label {
+  font-family: var(--fuentePrincipal);
+  font-weight: bold;
+  height: 1.6;
+  font-size: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .contenedor__entrada {
+    padding: 0rem 10rem;
+    margin-bottom: 8rem;
+   }  
+}
+ /**contacto**/
 
+ .contacto__bg {
+  background-image: url(../img/contacto.jpg);
+  height: 50rem;
+  background-repeat: no-repeat;
+ }
+ .formulario {
+  background-color: aquamarine;
+ }
+ .campo {
+ }
+.campo__label {
 
+}
+.campo__field {
 
-
-
-
+}
+.campo__field--textarea {
+  
+}
 
 
 
