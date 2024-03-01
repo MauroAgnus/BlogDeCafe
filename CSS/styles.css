@@ -92,6 +92,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 2rem;
   }  
 }
 
@@ -213,6 +214,9 @@ img {
     background-color: var(--negro);
   }
 }
+
+/**Trabajando en el archivo nosotros**/
+
 
 
 
