@@ -1,0 +1,212 @@
+:root {
+    
+    --fuenteSecundaria: font-family: "Open Sans", sans-serif;
+    --fuentePrincipal: "PT Sans", sans-serif;
+
+    --colorPrimario: #784d3c;
+    --gris: #e1e1e1;
+    --grisOscuro: rgb(53, 51, 51);
+    --blanco: #fff;
+    --negro: #000;
+
+}
+
+/**Globales**/
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+ *, *:before, *:after {
+  box-sizing: inherit;
+ }
+body {
+  font-family: var(--fuenteSecundaria);
+  font-size: 1.6rem;
+  line-height: 2;
+}
+.contenedor {
+  max-width: 120rem;
+  width: 90%;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+h1, h2, h3, h4 {
+  font-family: var(--fuentePrincipal);
+}
+h1 {
+  font-size: 4.8rem;
+}
+h2 {
+  font-size: 4rem;
+}
+h3 {
+  font-size: 3.2rem;
+}
+h4 {
+  font-size: 2.8rem;
+}
+img {
+  max-width: 100%;
+}
+
+/**utilidades**/
+
+.no-margin {
+  margin: 0;
+}
+ .no-padding {
+  padding: 0;
+ }
+.centrar-texto {
+  text-align: center;
+}
+
+/**escritura dentro del banner**/
+
+.header {
+  background-image: url(../img/banner.jpg);
+  height: 60rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.header__texto {
+  color: var(--blanco);
+  text-align: center;
+  margin-top: 20rem;
+}
+@media screen and (max-width: 768px) {
+  .header__texto {
+    margin-top: 5rem;
+  }
+}
+/**Barra de navegacion que contiene el logo**/
+
+@media screen and (min-width: 768px) {
+  .barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }  
+}
+
+.logo {
+  color: var(--blanco);
+  text-align: center;
+}
+.logo__nombre {
+  font-weight: 400;
+  margin-top: 0;
+}
+.logo__nombre--negrita {
+  font-weight: bold;
+}
+
+/**Barra de navegacion; enlaces**/
+
+@media screen and (min-width: 768px) {
+  .navegacion {
+    display: flex;
+    gap: 2rem;
+    margin-left: 30rem;
+    margin-top: 0;
+  }  
+}
+.navegacion__enlace {
+    display: block;
+    text-align: center;
+    color: var(--blanco);
+    font-size: 1.8rem;
+}
+.navegacion__enlace:hover {
+  font-weight: bold;
+}
+
+/**contenido principal**/
+
+@media screen and (min-width: 768px) {
+  .contenido-principal {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 4rem;
+  }  
+}
+
+.blog {
+  grid-column: 1;
+}
+.sidebar {
+  grid-column: 2;
+
+}  
+.entrada {
+  border-bottom: 1px solid var(--gris);
+  margin-bottom: 2rem;
+}
+.entrada:last-of-type {
+  border: none;
+  margin: 0;
+} 
+
+/**Modelando los botones**/
+
+.boton {
+  display: block;
+  text-align: center;
+  background-color: var(--grisOscuro);
+  transition: background-color 1s;
+  font-family: var(--fuentePrincipal);
+  text-transform: uppercase;
+  color: var(--blanco);
+  padding: 1rem 3rem ;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .boton {
+    display: inline-block;
+  }
+}
+.boton:hover {
+  background-color: var(--negro);
+
+}
+
+/**modelando el lateral(sidebar)**/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
