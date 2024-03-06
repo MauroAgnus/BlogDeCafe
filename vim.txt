@@ -1,0 +1,61 @@
+Modo Normal (Normal Mode):
+
+Navegación:
+
+h: Mover el cursor hacia la izquierda.
+j: Mover el cursor hacia abajo.
+k: Mover el cursor hacia arriba.
+l: Mover el cursor hacia la derecha.
+w: Mover el cursor hacia la siguiente palabra.
+b: Mover el cursor hacia la palabra anterior.
+0 (cero): Mover el cursor al inicio de la línea.
+$: Mover el cursor al final de la línea.
+gg: Ir al inicio del archivo.
+G: Ir al final del archivo.
+Ctrl + f: Desplazarse hacia adelante una pantalla.
+Ctrl + b: Desplazarse hacia atrás una pantalla.
+<n>G: Ir a la línea n.
+Edición:
+
+x: Eliminar el carácter bajo el cursor.
+dw: Eliminar desde el cursor hasta el final de la palabra.
+dd: Eliminar la línea actual.
+yy: Copiar la línea actual.
+p: Pegar el texto previamente copiado o eliminado después del cursor.
+u: Deshacer la última acción.
+Ctrl + r: Rehacer la última acción deshecha.
+Otras Acciones:
+
+:q: Salir de Vim.
+:w: Guardar el archivo.
+:wq o ZZ: Guardar y salir.
+/texto: Buscar texto hacia adelante.
+?texto: Buscar texto hacia atrás.
+:set nu: Mostrar números de línea.
+:set nonu: Ocultar números de línea.
+:sp archivo: Dividir la ventana horizontalmente y abrir un nuevo archivo.
+:vsp archivo: Dividir la ventana verticalmente y abrir un nuevo archivo.
+Ctrl + w + f: Abrir un nuevo archivo en una nueva ventana.
+Ctrl + w + j: Cambiar a la ventana de abajo.
+Ctrl + w + k: Cambiar a la ventana de arriba.
+Ctrl + w + h: Cambiar a la ventana de la izquierda.
+Ctrl + w + l: Cambiar a la ventana de la derecha.
+Modo de Inserción (Insert Mode):
+
+Inserción:
+i: Insertar antes del cursor.
+a: Insertar después del cursor.
+I: Insertar al inicio de la línea.
+A: Insertar al final de la línea.
+o: Abrir una nueva línea debajo de la línea actual.
+O: Abrir una nueva línea encima de la línea actual.
+Modo de Visualización (Visual Mode):
+
+Selección:
+v: Activar el Modo de Visualización.
+V: Activar el Modo de Visualización de Líneas (seleccionar líneas completas).
+Ctrl + v: Activar el Modo de Visualización de Bloques (seleccionar bloques de texto).
+Después de seleccionar texto:
+d: Eliminar.
+y: Copiar.
+p: Pegar.
